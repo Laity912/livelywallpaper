@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script>
+    function change(color)
+    {
+        document.body.style.background=color;
+    }
+    
+    
+</script>
+</head>
+<body>
+    <input type="radio" name="color" onclick="change('red')">빨간색 <br>
+    <input type="radio" name="color" onclick="change('yellow')">노란색 <br>
+    <input type="radio" name="color" onclick="change('blue')">파란색 <br>
+    <input type="radio" name="color" onclick="change('green')">초록색 <br>
+    <img src ="https://www.gravatar.com/avatar/b99beecc0ed46ee3f842989166f7c872?d=https://repl.it/public/images/evalbot/evalbot_18.png&s=256"  onmouseover="change('red')" onmouseout="change('white')"></img>
+    <h1 mouseover="change('red')">파란색</h1>
+    <h1 mouseover="change('red')">주황색</h1>
+</body>
+</html>
