@@ -1,0 +1,66 @@
+/*https://tgd.kr/c/css/18728438*/
+:root
+{
+    --myvar: brown;
+    --myborder: brown;
+}
+html {
+
+    background: linear-gradient(to bottom, #dbe0da, var(--myvar,gray));
+   height: 100% !important;
+ 
+ }
+ 
+ 
+ 
+ body {
+ 
+ background: 100%;
+ 
+ animation: snow 20s linear infinite;
+
+ overflow-y: hidden; overflow-x: hidden;
+
+ 
+ 
+ 
+ /*백그라운드 이미지 원근감느낌 이미지*/
+ 
+ background-image:url('snow.png'), url("snow3.png"), url("snow2.png");
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ /*뒷배경 움직이는 애니메이션*/
+ 
+ @keyframes snow {
+ 
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+ 
+ }
+ .fullscreen
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+img
+{
+    width: 30%;
+    height: 15%;
+    padding: 10px;
+    border: 5px  solid var(--myvar);
+    opacity: 0.85   ;
+}
+table
+{
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+}
+
