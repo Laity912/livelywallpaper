@@ -1,0 +1,165 @@
+/*https://tgd.kr/c/css/18728438*/
+:root
+{
+    --myvar: brown;
+    --myborder: brown;
+}
+img
+{
+    display: block;
+    vertical-align: left;
+}
+
+html {
+
+    background: linear-gradient(to bottom, #dbe0da, var(--myvar,gray));
+   height: 100% !important;
+ 
+ }
+ body {
+ 
+    background: 100%;
+    
+    animation: snow 20s linear infinite;
+   
+    overflow-y: hidden; overflow-x: hidden;
+       margin: 0px;
+   
+    
+    
+    
+    /*백그라운드 이미지 원근감느낌 이미지*/
+    
+    background-image:url('snowevent/snow.png'), url("snowevent/snow3.png"), url("snowevent/snow2.png");
+    
+    }
+    
+    
+    
+    
+    
+    /*뒷배경 움직이는 애니메이션*/
+    
+    @keyframes snow {
+    
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    
+    }
+    .fullscreen
+   {
+       width: 100vw;
+       height: 100vh;
+   }
+
+.menber
+{
+    width: 60%;
+    height: 15%;
+    padding: 10px;
+    border: 5px  solid var(--myvar);
+    opacity: 0.90 ;
+
+}
+table
+{
+    position: absolute;
+    top: 70vh;
+    left: 1vw;
+}
+.tree
+{
+    z-index: 0;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    top: 35vh;
+    opacity: 0.6;
+    display: none;
+}
+.night
+{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    width: 100vw;
+    opacity: 0.5;
+    display: inline;
+    margin: 0;
+    z-index: -1;
+
+}
+.cdimg
+{
+    opacity: 0.7;
+}
+.cdimg1
+{
+    position: relative;
+    top :'0px';
+    left: '3px';
+}
+.cdimg2
+{
+    position: relative;
+    top :'0px';
+    left: '3px';
+}
+.cdimg3
+{
+    position: relative;
+    top :'0px';
+    left: '3px';
+}
+.cdimg4
+{
+    position: relative;
+    top :'0px';
+    left: '3px';
+}
+.cdimg5
+{
+    position: relative;
+    top :'0px';
+    left: '3px';
+}
+.cdimg img
+{
+    width: 5%;
+    padding-top: 3vh;
+    padding-left: 2vh;
+    display: inline;
+}
+.cdimg h1
+{
+    display: inline;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.cdimg audio
+{
+    position: relative;
+    top: -9px;
+    left: 100px;
+    color : red;
+}
+.gif img
+{
+    position: absolute;
+    top: 10vh;
+    left: 90vh;
+
+}
+.making
+{
+    position: absolute;
+    top: 96vh;
+    left: 90vw;
+font-size: 20px;
+    color: var(black);
+    z-index: 3;
+}
